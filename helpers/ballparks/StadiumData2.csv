@@ -1,0 +1,31 @@
+City,Name,Opened,Seating capacity,StadiumDome,StadiumDomeType,State,Team,lat,lng
+Anaheim,Angel Stadium of Anaheim,1966,45477,False,, California,Los Angeles Angels of Anaheim,33.8002777778,-117.882777778
+San Francisco,AT&T Park,2000,41915,False,, California,San Francisco Giants,37.7786111111,-122.389166667
+St. Louis,Busch Stadium,2006,45529,False,, Missouri,St. Louis Cardinals,38.6225,-90.1930555556
+Phoenix,Chase Field,1998,48686,True,retractable, Arizona,Arizona Diamondbacks,33.4452777778,-112.066944444
+Queens,Citi Field,2009,41922,False,, New York,New York Mets,40.7569444444,-73.8458333333
+Philadelphia,Citizens Bank Park,2004,43651,False,, Pennsylvania,Philadelphia Phillies,39.9058333333,-75.1663888889
+Detroit,Comerica Park,2000,41299,False,, Michigan,Detroit Tigers,42.3391666667,-83.0486111111
+Denver,Coors Field,1995,50398,False,, Colorado,Colorado Rockies,39.7561111111,-104.994166667
+Los Angeles,Dodger Stadium,1962,56000,False,, California,Los Angeles Dodgers,34.0736111111,-118.24
+Boston,Fenway Park,1912,37731,False,, Massachusetts,Boston Red Sox,42.34625,-71.09775
+Arlington,Globe Life Park in Arlington,1994,48114,False,, Texas,Texas Rangers,32.7513888889,-97.0827777778
+Cincinnati,Great American Ball Park,2003,42319,False,, Ohio,Cincinnati Reds,39.0975,-84.5066666667
+Chicago,Guaranteed Rate Field,1991,40615,False,, Illinois,Chicago White Sox,41.83,-87.6338888889
+Kansas City,Kauffman Stadium,1973,37903,False,, Missouri,Kansas City Royals,39.0513888889,-94.4805555556
+Miami,Marlins Park,2012,36742,True,retractable, Florida,Miami Marlins,25.7780555556,-80.2197222222
+Milwaukee,Miller Park,2001,41900,True,retractable, Wisconsin,Milwaukee Brewers,43.0283333333,-87.9711111111
+Houston,Minute Maid Park,2000,41168,True,retractable, Texas,Houston Astros,29.7569444444,-95.3555555556
+Washington,Nationals Park,2008,41339,False,, D.C.,Washington Nationals,38.8727777778,-77.0075
+Oakland,Oakland–Alameda County Coliseum,1966,47170,False,, California,Oakland Athletics,37.7516666667,-122.200555556
+Baltimore,Oriole Park at Camden Yards,1992,45971,False,, Maryland,Baltimore Orioles,39.2838888889,-76.6216666667
+San Diego,Petco Park,2004,40209,False,, California,San Diego Padres,32.7072222222,-117.156666667
+Pittsburgh,PNC Park,2001,38362,False,, Pennsylvania,Pittsburgh Pirates,40.4469444444,-80.0058333333
+Cleveland,Progressive Field,1994,35051,False,, Ohio,Cleveland Indians,41.4958333333,-81.6852777778
+Toronto,Rogers Centre,1989,49282,True,retractable, Ontario,Toronto Blue Jays,43.6413888889,-79.3891666667
+Seattle,Safeco Field,1999,47943,True,retractable, Washington,Seattle Mariners,47.5911111111,-122.333055556
+Cumberland,SunTrust Park,2017,41149,False,, Georgia,Atlanta Braves,33.89,-84.4680555556
+Minneapolis,Target Field,2010,38885,False,, Minnesota,Minnesota Twins,44.9816666667,-93.2783333333
+St. Petersburg,Tropicana Field,1990,31042,True,fixed, Florida,Tampa Bay Rays,27.7683333333,-82.6533333333
+Chicago,Wrigley Field,1914,41268,False,, Illinois,Chicago Cubs,41.9480555556,-87.6561111111
+Bronx,Yankee Stadium,2009,47422,False,, New York,New York Yankees,40.8291666667,-73.9263888889
