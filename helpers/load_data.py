@@ -1,6 +1,7 @@
 # settings & imports
 import pandas as pd
 import logging
+from helpers.baseball_functions import total_bases
 
 logger = logging.getLogger(__name__)
 loglevel = logging.INFO
@@ -32,6 +33,15 @@ def load_games(start_year, end_year):
     games['year'] = games['date'].dt.year
     games['month'] = games['date'].dt.month
     games['day_of_month'] = games['date'].dt.day
+
+    # plate appearances & total bases
+    for i in ("v", "h"):
+        games[f"{i}_plate_appearances"] = games[[f"{i}_at_bats", f"{i}_sacrifice_hits", f"{i}_sacrifice_flies", f"{i}_hit_by_pitch", f"{i}_walks", f"{i}_intentional_walks"]].sum(axis=1)
+        games[f"{i}_total_bases"] = games[f'{i}_total_bases'] = games.apply(lambda row: total_bases(row[f"{i}_hits"], row[f"{i}_doubles"], row[f"{i}_triples"], row[f"{i}_homeruns"]), axis=1)
+
+    # totals
+    for x in ("score", "at_bats", "hits", "plate_appearances", "total_bases"):
+        games[f"t_{x}"] = games[[f"v_{x}", f"h_{x}"]].sum(axis=1)
 
     return games
 
