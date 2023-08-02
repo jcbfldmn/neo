@@ -2,7 +2,7 @@
 
 In order to answer the above, we will take a look at the 4 main offensive productivity metrics: `Runs Scored`, `Batting Average`, `On Base Percentage`, & `Slugging Percentage`. However these 4 statistics may be skewed by the ballpark in which the game is played in (i.e. the confines of The Great American Ballpark are sure to allow greater offensive productivity than those of Oracle Park).
 
-To counteract this, we will be measuring these 4 metrics in differential against the ballpark norm. For example, if the average batting average at Citi Field is .240 and the total batting average in a single game at Citi Field between the 2 teams is .265, the batting average differential for that game will be +.025. We will then be plotting these 4 differentials against the max temperature at that day and location. Now, let's take a look and see if hotter tempersatures lead to more offensive efficiency in the last 3 years (2020 - 2022).
+To counteract this, we will be measuring these 4 metrics in differential against the ballpark norm. For example, if the average batting average at Citi Field is .240 and the total batting average in a single game at Citi Field between the 2 teams is .265, the batting average differential for that game will be +.025. We will then be plotting these 4 differentials against the max temperature at that day and location. Now, let's take a look and see if hotter temperatures lead to more offensive efficiency in the last 3 years (2020 - 2022).
 
 ### Assumptions:
 - Day games take place during that day's max temperature
